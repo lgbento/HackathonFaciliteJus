@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hackathon</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="shortcut icon" href="site/img/quadrado.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="site/fontawesome/css/all.css">
+    <link rel="stylesheet" href="site/css/bootstrap.css">
+    <link rel="stylesheet" href="site/css/style.css">
+</head>
+
+<body>
+
+    <div class="container-api">
+        <header>
+            <p class="empresa">FaciliteJus</p>
+        </header>
+        <nav>
+            <ul class="menu-horizontal">
+                <!-- <li>
+                    <a href="#">
+                        <span class="fas fa-home"></span>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="#">
+                        <span class="fas fa-bell"></span>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="#">
+                        <span class="fas fa-home"></span>
+                    </a>
+                </li> -->
+                <li class="perfil-fluido">
+                    <a href="#">
+                        <img src="site/img/person-1.jpg" alt="">
+                        <!-- <p>Joseph L.</p> -->
+                        Joseph L.
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fas fa-power-off"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <aside>
+            <div class="perfil">
+                <img src="site/img/person-1.jpg" class="img-fluid" alt="">
+                <p>Joseph L.</p>
+            </div>
+            <ul class="menu-vertical">
+                <li>
+                    <a href="#">
+                        <span class="fas fa-tachometer-alt"></span> Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fas fa-users"></span> Advogados
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fas fa-question-circle"></span> FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fas fa-user"></span> Perfil
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <section>
+            <div class="container mt-2">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card bg-danger text-white">
+                            <div class="card-body">
+                                <div class="row text-center">
+                                    <div class="col-lg-12 text-center mb-4">
+                                        <h4>Total de processos</h4>
+                                    </div>
+                                    <div class="col-lg-6 mt-3">
+                                        <span class="fas fa-file-pdf"></span>
+                                    </div>
+                                    <div class="col-lg-6 mt-3">
+                                       <p class="qtdProcessos">5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-danger text-white">
+                            <div class="card-body">
+                                <div class="row text-center">
+                                    <div class="col-lg-12 text-center mb-4">
+                                        <h4>Processos resolvidos</h4>
+                                    </div>
+                                    <div class="col-lg-6 mt-3">
+                                        <span class="fas fa-file-pdf"></span>
+                                    </div>
+                                    <div class="col-lg-6 mt-3">
+                                        <p class="qtdProcessos">3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-danger text-white">
+                            <div class="card-body">
+                                <div class="row text-center">
+                                    <div class="col-lg-12 text-center mb-4">
+                                        <h4>Processos pendentes</h4>
+                                    </div>
+                                    <div class="col-lg-6 mt-3">
+                                        <span class="fas fa-file-pdf"></span>
+                                    </div>
+                                    <div class="col-lg-6 mt-3">
+                                        <p class="qtdProcessos">2</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- fim row -->
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <form action="" method="" class="was-validated">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Categoria:</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Selecione</option>
+                                            <option value="">Categoria</option>
+                                            <option value="">Categoria</option>
+                                            <option value="">Categoria</option>
+                                            <option value="">Categoria</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Advogado de preferencia (opcional):</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Selecione</option>
+                                            <option value="">Advogado</option>
+                                            <option value="">Advogado</option>
+                                            <option value="">Advogado</option>
+                                            <option value="">Advogado</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="validationTextarea">Descrição do processo:</label>
+                                        <textarea class="form-control is-invalid" id="validationTextarea"
+                                            placeholder="Descrição do processo em detalhes..." required></textarea>
+                                        <div class="invalid-feedback">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="">Upload de arquivo:</label>
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                                        <label class="custom-file-label" for="validatedCustomFile">Selecione seu
+                                            arquivo</label>
+                                        <div class="invalid-feedback">Selecione arquivo válido</div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-lg-12">
+                                    <input type="submit" class="btn btn-danger" value="Enviar">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- fim row -->
+                <div class="row mt-5">
+                    <div class="col-lg-6">
+                        <table class="table table-hover table-responsive">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Nome do advogado</th>
+                                    <th scope="col">OAB</th>
+                                    <th scope="col">Especialidade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="site/img/person-1.jpg" class="img-fluid img-table" alt="">
+                                    </th>
+                                    <td>Mark</td>
+                                    <td>00000</td>
+                                    <td>Causa trabalhista / Criminal</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="site/img/person-2.jpg" class="img-fluid img-table" alt="">
+                                    </th>
+                                    <td>Jacob</td>
+                                    <td>22222</td>
+                                    <td>Causa trabalhista / Criminal</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="site/img/person-3.jpg" class="img-fluid img-table" alt="">
+                                    </th>
+                                    <td>Jacob</td>
+                                    <td>33333</td>
+                                    <td>Causa trabalhista / Criminal</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                        
+                    </div>
+                    <div class="col-lg-6">
+                        <table class="table table-hover table-responsive">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Nome do advogado</th>
+                                    <th scope="col">OAB</th>
+                                    <th scope="col">Especialidade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="site/img/person-1.jpg" class="img-fluid img-table" alt="">
+                                    </th>
+                                    <td>Mark</td>
+                                    <td>00000</td>
+                                    <td>Causa trabalhista / Criminal</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="site/img/person-2.jpg" class="img-fluid img-table" alt="">
+                                    </th>
+                                    <td>Jacob</td>
+                                    <td>22222</td>
+                                    <td>Causa trabalhista / Criminal</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="site/img/person-3.jpg" class="img-fluid img-table" alt="">
+                                    </th>
+                                    <td>Jacob</td>
+                                    <td>33333</td>
+                                    <td>Causa trabalhista / Criminal</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- conteudo secundario -->
+        <footer>
+            <p class="text-center text-white">
+                template desenvolvido por fins educacions - HACKATHON -
+                Wlysses | Isaque | Luis | Michel | André
+            </p>
+        </footer>
+    </div>
+
+    <!-- scripts js -->
+    <script src="site/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="site/js/jquery-3.3.1.min.js"></script>
+    <script src="site/js/popper.min.js"></script>
+    <script src="site/js/bootstrap.min.js"></script>
+    <!-- texto escrito -->
+    <script src="site/js/typed.js@2.0.9.js"></script>
+    <script src="site/js/textoescrito.js"></script>
+    <script src="site/js/slideSmartContracts.js"></script>
+    <!-- botao flutuante -->
+    <script src="site/js/botaoflutuante.js"></script>
+</body>
+
+</html>
